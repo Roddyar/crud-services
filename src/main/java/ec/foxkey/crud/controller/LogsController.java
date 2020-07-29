@@ -6,15 +6,13 @@ import ec.foxkey.crud.db.services.ILogsService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 import reactor.core.publisher.Flux;
 import reactor.core.publisher.Mono;
 
 @RestController
 @RequestMapping("/logs")
+@CrossOrigin(origins = "https://5f21a5700fa3a70008e4e056--amazing-lewin-ebf769.netlify.app")
 public class LogsController {
 
     private static Logger log = LoggerFactory.getLogger(LogsController.class);

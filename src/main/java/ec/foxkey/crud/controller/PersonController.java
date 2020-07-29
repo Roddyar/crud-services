@@ -11,6 +11,7 @@ import ec.foxkey.crud.db.entities.Person;
 
 @RestController
 @RequestMapping("/person")
+@CrossOrigin(origins = "https://5f21a5700fa3a70008e4e056--amazing-lewin-ebf769.netlify.app")
 public class PersonController {
 
     private static Logger log = LoggerFactory.getLogger(PersonController.class);
